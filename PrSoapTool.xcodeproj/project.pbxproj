@@ -13,6 +13,8 @@
 		6DD1F1BE1A78246600E4C49B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD1F1BD1A78246600E4C49B /* Images.xcassets */; };
 		6DD1F1C11A78246600E4C49B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD1F1BF1A78246600E4C49B /* LaunchScreen.xib */; };
 		6DD1F1CD1A78246600E4C49B /* PrSoapToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1F1CC1A78246600E4C49B /* PrSoapToolTests.swift */; };
+		6DD1F1D71A78248300E4C49B /* PrDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1F1D61A78248300E4C49B /* PrDelegate.swift */; };
+		6DD1F1DB1A78250C00E4C49B /* PrSoapConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1F1DA1A78250C00E4C49B /* PrSoapConnector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6DD1F1C61A78246600E4C49B /* PrSoapToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrSoapToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD1F1CB1A78246600E4C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DD1F1CC1A78246600E4C49B /* PrSoapToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrSoapToolTests.swift; sourceTree = "<group>"; };
+		6DD1F1D61A78248300E4C49B /* PrDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrDelegate.swift; sourceTree = "<group>"; };
+		6DD1F1DA1A78250C00E4C49B /* PrSoapConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrSoapConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				6DD1F1B61A78246600E4C49B /* AppDelegate.swift */,
+				6DD1F1D61A78248300E4C49B /* PrDelegate.swift */,
+				6DD1F1DA1A78250C00E4C49B /* PrSoapConnector.swift */,
 				6DD1F1B81A78246600E4C49B /* ViewController.swift */,
 				6DD1F1BA1A78246600E4C49B /* Main.storyboard */,
 				6DD1F1BD1A78246600E4C49B /* Images.xcassets */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD1F1DB1A78250C00E4C49B /* PrSoapConnector.swift in Sources */,
 				6DD1F1B91A78246600E4C49B /* ViewController.swift in Sources */,
 				6DD1F1B71A78246600E4C49B /* AppDelegate.swift in Sources */,
+				6DD1F1D71A78248300E4C49B /* PrDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
